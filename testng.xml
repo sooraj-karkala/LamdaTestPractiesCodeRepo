@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="chrometest">
+        <parameter name="browserName" value="Chrome"></parameter>
+	   	<parameter name="browserVersion" value="119.0"></parameter>
+	   	<parameter name="osVersion" value="Windows 10"></parameter>  
+		    <classes>
+		      <class name="LamdaTestDemo.parallelLogin"/>
+		    </classes>
+  </test>
+  
+  <test name="Edgetest">
+	    <parameter name="browserName" value="Edge"></parameter>
+	   	<parameter name="browserVersion" value="118.0"></parameter>
+	   	<parameter name="osVersion" value="Windows 11"></parameter>
+		    <classes>
+		      <class name="LamdaTestDemo.parallelLogin"/>
+		    </classes>
+  </test>
+   
+</suite>

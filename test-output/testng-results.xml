@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-15T20:39:30 IST" name="Suite" finished-at="2024-06-15T20:39:40 IST" duration-ms="10554">
+    <groups>
+    </groups>
+    <test started-at="2024-06-15T20:39:30 IST" name="chrometest" finished-at="2024-06-15T20:39:36 IST" duration-ms="6736">
+      <class name="LamdaTestDemo.parallelLogin">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LamdaTestDemo.parallelLogin@3527942a]" started-at="2024-06-15T20:39:30 IST" name="Login" finished-at="2024-06-15T20:39:36 IST" duration-ms="6691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[119.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- LamdaTestDemo.parallelLogin -->
+    </test> <!-- chrometest -->
+    <test started-at="2024-06-15T20:39:30 IST" name="Edgetest" finished-at="2024-06-15T20:39:40 IST" duration-ms="10554">
+      <class name="LamdaTestDemo.parallelLogin">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LamdaTestDemo.parallelLogin@74d1dc36]" started-at="2024-06-15T20:39:30 IST" name="Login" finished-at="2024-06-15T20:39:40 IST" duration-ms="10514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[118.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- LamdaTestDemo.parallelLogin -->
+    </test> <!-- Edgetest -->
+  </suite> <!-- Suite -->
+</testng-results>
